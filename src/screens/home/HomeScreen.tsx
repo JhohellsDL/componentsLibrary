@@ -1,12 +1,19 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import Button from '../../components/ui/Button';
+import CustomView from '../../components/ui/CustomView';
 
 const HomeScreen = () => {
+
   return (
-    <View>
-        <Text>HomeScreen</Text>
-    </View>
+    <CustomView >
+      <Button
+            text="button"
+            size="xlarge"
+            onPress={() => console.log('Pequeño presionado')}
+          />
+    </CustomView>
   );
 };
+
 
 export default HomeScreen;

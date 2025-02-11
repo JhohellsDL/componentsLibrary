@@ -1,0 +1,17 @@
+export const fontSize = {
+  ride_gl_font_size_10xlarge: 64,
+  ride_gl_font_size_11xlarge: 72,
+  ride_gl_font_size_12xlarge: 80,
+  ride_gl_font_size_2xlarge: 20,
+  ride_gl_font_size_3xlarge: 24,
+  ride_gl_font_size_4xlarge: 28,
+  ride_gl_font_size_5xlarge: 32,
+  ride_gl_font_size_6xlarge: 36,
+  ride_gl_font_size_7xlarge: 40,
+  ride_gl_font_size_8xlarge: 48,
+  ride_gl_font_size_9xlarge: 56,
+  ride_gl_font_size_large: 16,
+  ride_gl_font_size_medium: 14,
+  ride_gl_font_size_small: 12,
+  ride_gl_font_size_xlarge: 18,
+} as const;

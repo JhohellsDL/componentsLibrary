@@ -1,0 +1,18 @@
+export const spacing = {
+  ride_gl_spacing_10xlarge: 80,
+  ride_gl_spacing_11xlarge: 96,
+  ride_gl_spacing_12xlarge: 112,
+  ride_gl_spacing_2xlarge: 16,
+  ride_gl_spacing_3xlarge: 20,
+  ride_gl_spacing_4xlarge: 24,
+  ride_gl_spacing_5xlarge: 32,
+  ride_gl_spacing_6xlarge: 40,
+  ride_gl_spacing_7xlarge: 48,
+  ride_gl_spacing_8xlarge: 56,
+  ride_gl_spacing_9xlarge: 64,
+  ride_gl_spacing_large: 8,
+  ride_gl_spacing_medium: 4,
+  ride_gl_spacing_none: 0,
+  ride_gl_spacing_small: 2,
+  ride_gl_spacing_xlarge: 12,
+} as const;
