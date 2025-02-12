@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/BRSonoma-Bold.otf",
+      "sha1": "dcba43ec2351fa0439376656f154132103548f2d"
+    },
+    {
+      "path": "assets/fonts/BRSonoma-Regular.otf",
+      "sha1": "f6049774495c134a0a1ad042e2192153ba37546d"
+    },
+    {
+      "path": "assets/fonts/BRSonoma-SemiBold.otf",
+      "sha1": "cb97d533a39041cb607baca14f22927cbab1aa4e"
+    }
+  ]
+}
