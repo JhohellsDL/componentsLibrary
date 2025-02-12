@@ -7,8 +7,8 @@ import {
   getButtonBorderColor,
   getButtonTextColor,
 } from './utils/rideButtonHelper';
-import { sizeStylesRide, textStyleRide } from './RideButtonStyles';
-import { colors } from '../../tokens';
+import {sizeStylesRide, textStyleRide} from './RideButtonStyles';
+import {colors} from '../../tokens';
 
 interface Props {
   text: string;
@@ -57,6 +57,7 @@ const RideButton = ({
       onPress={onPress}
       onPressIn={onPressIn}
       onPressOut={onPressOut}
+      accessibilityRole="button"
       disabled={state === 'disabled' || state === 'loading'}
       style={[
         sizeStylesRide.boton,
@@ -67,7 +68,7 @@ const RideButton = ({
         },
       ]}>
       {state === 'loading' ? (
-        <ActivityIndicator color={colors.ride_sys_color_surface_default} />
+        <ActivityIndicator testID="loading-indicator" color={colors.ride_sys_color_surface_default} />
       ) : (
         <Text
           style={[
