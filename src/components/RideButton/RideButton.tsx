@@ -7,7 +7,7 @@ import {
   getButtonBorderColor,
   getButtonTextColor,
 } from './utils/rideButtonHelper';
-import {sizeStylesRide, textStyleRide} from './RideButtonStyles';
+import {sizeStylesRide, textStyleRide} from './RideButton.styles';
 import {colors} from '../../tokens';
 
 interface Props {
