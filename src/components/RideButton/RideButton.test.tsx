@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
-import RideButton from '../RideButton';
+import RideButton from './RideButton';
 
 describe('RideButton Component', () => {
   it('renders correctly with text', () => {
