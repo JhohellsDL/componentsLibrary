@@ -4,6 +4,8 @@ import RideButton from '../../src/components/RideButton/RideButton';
 import { StyleSheet, View } from 'react-native';
 import SvgComponent from '../../src/assets/logos/MySvg';
 import Rimac from '../../src/assets/logos/Rimac.svg';
+import RimacDark from '../../src/assets/logos/RimacDark';
+import { colors } from '../../src';
 
 const HomeScreen = () => {
   return (
@@ -14,7 +16,7 @@ const HomeScreen = () => {
         onPress={() => console.log('Pequeño presionado')}
       />
       <View style={{padding: 8}} />
-      <SvgComponent/>
+      <RimacDark size={120}/>
       <Rimac width={120} height={40} fill={'green'}/>
       <RideButton
         text="button"
