@@ -1,4 +1,4 @@
-import { globalTokens } from '../globalTokens/colors';
+import { globalTokens } from "../globalTokens/colors";
 
 export const colors = {
   ride_sys_color_surface_subtle: globalTokens.ride_gl_color_neutral_10,
