@@ -1,4 +1,4 @@
-import {fonts} from '../globalTokens/fonts';
+import {fonts} from '../../assets/fonts/fonts';
 import {fontSize} from '../globalTokens/fontSize';
 import {letterHeight} from '../globalTokens/letterHeight';
 import {letterSpacing} from '../globalTokens/letterSpacing';
