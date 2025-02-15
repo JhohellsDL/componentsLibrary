@@ -35,8 +35,8 @@ export const sizeStylesRide = StyleSheet.create({
 });
 
 export const textStyleRide = StyleSheet.create({
-    textSmall: { ...typography.ride_sys_text_label_small_default, fontFamily: 'Br-Sonoma' },
+    textSmall: { ...typography.ride_sys_text_label_small_default },
     textMedium: { ...typography.ride_sys_text_label_medium_default },
-    textLarge: { ...typography.ride_sys_text_label_large_default, fontFamily: 'Arial' },
-    textXLarge: { ...typography.ride_sys_text_label_xlarge_default, fontFamily: 'Br-Sonoma' },
+    textLarge: { ...typography.ride_sys_text_label_large_default },
+    textXLarge: { ...typography.ride_sys_text_label_xlarge_default },
 });

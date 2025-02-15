@@ -1,18 +1,21 @@
 {
   "compilerOptions": {
-    "outDir": "dist", // Directorio de salida para los archivos compilados
-    "module": "ESNext", // Usa módulos ES
-    "target": "ES6", // Compila a ES6
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "ES6",
     "lib": ["DOM", "ES6"],
-    "jsx": "react-jsx", // Soporte para JSX
-    "declaration": true, // Genera archivos .d.ts para TypeScript
-    "sourceMap": true, // Genera source maps
+    "jsx": "react-jsx",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node"
   },
-  "include": ["src/**/*"], // Incluye todos los archivos en src
-  "exclude": ["node_modules", "dist", "**/*.test.tsx"] // Excluye node_modules y tests
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.tsx"]
 }
