@@ -1,7 +1,7 @@
 import {colors} from '../../../tokens';
 
 export const getButtonBackgroundColor = (state: string, pressed: boolean) => {
-  if (state === 'disable') {
+  if (state === 'disabled') {
     return colors.ride_sys_color_surface_disable;
   }
   if (pressed) {
