@@ -6,6 +6,7 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import terser from '@rollup/plugin-terser';
 import replace from '@rollup/plugin-replace';
 import dts from 'rollup-plugin-dts';
+import image from '@rollup/plugin-image';
 
 export default [
   {
@@ -24,7 +25,9 @@ export default [
     ],
     plugins: [
       peerDepsExternal(),
-      resolve(),
+      resolve({
+        preferBuiltins: false,
+      }),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json' }), // Sigue usando TypeScript aquí
       babel({
@@ -32,11 +35,15 @@ export default [
         exclude: 'node_modules/**',
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       }),
+      terser(),
+      image(),
       replace({
         'process.env.NODE_ENV': JSON.stringify('production'),
         preventAssignment: true,
+        'use client': '',
+        delimiters: ['', ''],
+        include: 'node_modules/react-native-svg/lib/module/index.js',
       }),
-      terser(),
     ],
   },
   {
