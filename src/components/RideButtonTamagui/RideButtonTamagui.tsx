@@ -1,14 +1,9 @@
 import React from 'react';
-import { useTheme } from '../../config/theme/ThemeProvider';
-import { usePressed } from '../../hooks/usePressed';
-import {
-  getButtonBackgroundColor,
-  getButtonBorderColor,
-  getButtonTextColor,
-} from './utils/rideButtonTamaguiHelper';
-import { sizeStylesRide, textStyleRide } from './RideButtonStyles';
-import { colors } from '../../tokens';
-import { Button, Text, Spinner, styled } from 'tamagui';
+import {useTheme} from '../../config/theme/ThemeProvider';
+import {usePressed} from '../../hooks/usePressed';
+import {sizeStylesRide, textStyleRide} from '../RideButton/RideButtonStyles';
+import {colors} from '../../tokens';
+import {Button, Text, Spinner, styled} from 'tamagui';
 
 interface Props {
   text: string;
@@ -49,7 +44,7 @@ const RideButton = ({
   state = 'default',
 }: Props) => {
   const {} = useTheme();
-  const { pressed, onPressIn, onPressOut } = usePressed();
+  const {onPressIn, onPressOut} = usePressed();
 
   const getSizeStyle = () => {
     switch (size) {
@@ -85,20 +80,20 @@ const RideButton = ({
       accessibilityRole="button"
       disabled={state === 'disabled' || state === 'loading'}
       size={size}
-      style={{
-        backgroundColor: getButtonBackgroundColor(state, pressed),
-        borderColor: getButtonBorderColor(state, pressed),
-      }}
-    >
+      style={[
+        sizeStylesRide.boton,
+        getSizeStyle(),
+      ]}>
       {state === 'loading' ? (
-        <Spinner testID="loading-indicator" color={colors.ride_sys_color_surface_default} />
+        <Spinner
+          testID="loading-indicator"
+          color={colors.ride_sys_color_surface_default}
+        />
       ) : (
         <Text
           style={[
             getTextSizeStyle(),
-            { color: getButtonTextColor(state, pressed) },
-          ]}
-        >
+          ]}>
           {text}
         </Text>
       )}

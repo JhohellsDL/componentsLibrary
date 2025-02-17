@@ -1,4 +1,4 @@
-export * from '../assets/fonts/fonts';
+export * from '../../assets/fonts/fonts';
 
 export * from './globalTokens/colors';
 export * from './globalTokens/fontSize';

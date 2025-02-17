@@ -10,7 +10,7 @@ import {
 import {sizeStylesRide, textStyleRide} from './RideButtonStyles';
 import {colors} from '../../tokens';
 
-interface Props {
+interface RideButtonProps {
   text: string;
   onPress: () => void;
   size?: 'small' | 'medium' | 'large' | 'xlarge';
@@ -22,7 +22,7 @@ const RideButton = ({
   onPress,
   size = 'medium',
   state = 'default',
-}: Props) => {
+}: RideButtonProps) => {
   const {} = useTheme();
   const {pressed, onPressIn, onPressOut} = usePressed();
 

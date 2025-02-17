@@ -1,40 +1,36 @@
 // rideButtonHelper.tsx
-import { useTheme } from 'tamagui';
 import { tokens } from '../../../../tamagui.config';
 
 
 export const getButtonBackgroundColor = (state: string, pressed: boolean) => {
-  const theme = useTheme();
   if (state === 'disabled') {
-    return tokens.color.verdecito;
+    return tokens.color.ride_gl_color_accent_20;
   }
   if (pressed) {
-    return theme.colors.surfaceDefault;
+    return tokens.color.ride_gl_color_accent_60;
   } else {
-    return theme.colors.surfaceExtreme;
+    return tokens.color.ride_gl_color_accent_40;
   }
 };
 
 export const getButtonBorderColor = (state: string, pressed: boolean) => {
-  const theme = useTheme();
   if (state === 'disabled') {
-    return theme.colors.surfaceDisable;
+    return tokens.color.ride_gl_color_neutral_100;
   }
   if (pressed) {
-    return theme.colors.surfaceExtreme;
+    return tokens.color.ride_gl_color_neutral_100;
   } else {
-    return theme.colors.surfaceExtreme;
+    return tokens.color.ride_gl_color_neutral_100;
   }
 };
 
 export const getButtonTextColor = (state: string, pressed: boolean) => {
-  const theme = useTheme();
   if (state === 'disabled') {
-    return theme.colors.textDisabled;
+    return tokens.color.ride_gl_color_neutral_100;
   }
   if (pressed) {
-    return theme.colors.surfaceExtreme;
+    return tokens.color.ride_gl_color_accent_60;
   } else {
-    return theme.colors.surfaceDefault;
+    return tokens.color.ride_gl_color_accent_40;
   }
 };

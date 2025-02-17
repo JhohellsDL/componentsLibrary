@@ -6,25 +6,6 @@ import { radius } from './src/tokens/globalTokens/radius';
 import { spacing } from './src/tokens/globalTokens/spacing';
 import { glyph, icon, fullicon } from './src/tokens/globalTokens/graphics';
 
-const systemFont = createFont({
-  family: 'Br-Sonoma',
-  lineHeight: {
-    2: 22,
-  },
-  weight: {
-    regular: 400,
-    bold: 700,
-  },
-  letterSpacing: {
-    1: 0.5,
-    2: 0.8,
-  },
-  size: {
-    1: 12,
-    2: 14,
-  },
-});
-
 export const tokens = createTokens({
   graphichs: {...glyph, ...icon, ...fullicon},
   color: { ...globalTokens },
@@ -36,10 +17,6 @@ export const tokens = createTokens({
 });
 
 export const config = createTamagui({
-  fonts: {
-    heading: systemFont,
-    body: systemFont,
-  },
   tokens,
 });
 
