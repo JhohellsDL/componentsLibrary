@@ -1,5 +1,6 @@
-export * from './globalTokens/colors';
 export * from '../assets/fonts/fonts';
+
+export * from './globalTokens/colors';
 export * from './globalTokens/fontSize';
 export * from './globalTokens/letterHeight';
 export * from './globalTokens/letterSpacing';
