@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-componentsLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-componentsLibrary.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1CDF724BF5C748CCA58708A6 /* BRSonoma-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF93C844CDE740EC8126E8A2 /* BRSonoma-Regular.otf */; };
+		57F0667B87154A2DA1BF7144 /* BRSonoma-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C5BF0E1EDD4419FB8130360 /* BRSonoma-SemiBold.otf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A40509E8BAAF460848BAC19F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		EFAA5A12B60949EA92296E1E /* BRSonoma-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6FFF1E4E0D324F6990E1B128 /* BRSonoma-Bold.otf */; };
-		1CDF724BF5C748CCA58708A6 /* BRSonoma-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF93C844CDE740EC8126E8A2 /* BRSonoma-Regular.otf */; };
-		57F0667B87154A2DA1BF7144 /* BRSonoma-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C5BF0E1EDD4419FB8130360 /* BRSonoma-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,13 +24,13 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = componentsLibrary/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-componentsLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-componentsLibrary.debug.xcconfig"; path = "Target Support Files/Pods-componentsLibrary/Pods-componentsLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-componentsLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-componentsLibrary.release.xcconfig"; path = "Target Support Files/Pods-componentsLibrary/Pods-componentsLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		5C5BF0E1EDD4419FB8130360 /* BRSonoma-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BRSonoma-SemiBold.otf"; path = "../assets/fonts/BRSonoma-SemiBold.otf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-componentsLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-componentsLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFF1E4E0D324F6990E1B128 /* BRSonoma-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BRSonoma-Bold.otf"; path = "../assets/fonts/BRSonoma-Bold.otf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = componentsLibrary/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = componentsLibrary/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		6FFF1E4E0D324F6990E1B128 /* BRSonoma-Bold.otf */ = {isa = PBXFileReference; name = "BRSonoma-Bold.otf"; path = "../assets/fonts/BRSonoma-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FF93C844CDE740EC8126E8A2 /* BRSonoma-Regular.otf */ = {isa = PBXFileReference; name = "BRSonoma-Regular.otf"; path = "../assets/fonts/BRSonoma-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5C5BF0E1EDD4419FB8130360 /* BRSonoma-SemiBold.otf */ = {isa = PBXFileReference; name = "BRSonoma-SemiBold.otf"; path = "../assets/fonts/BRSonoma-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FF93C844CDE740EC8126E8A2 /* BRSonoma-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BRSonoma-Regular.otf"; path = "../assets/fonts/BRSonoma-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +64,17 @@
 				5DCACB8F33CDC322A6C60F78 /* libPods-componentsLibrary.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		564D396169F44006BA2173C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FFF1E4E0D324F6990E1B128 /* BRSonoma-Bold.otf */,
+				FF93C844CDE740EC8126E8A2 /* BRSonoma-Regular.otf */,
+				5C5BF0E1EDD4419FB8130360 /* BRSonoma-SemiBold.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -104,17 +115,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		564D396169F44006BA2173C7 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				6FFF1E4E0D324F6990E1B128 /* BRSonoma-Bold.otf */,
-				FF93C844CDE740EC8126E8A2 /* BRSonoma-Regular.otf */,
-				5C5BF0E1EDD4419FB8130360 /* BRSonoma-SemiBold.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
