@@ -1,11 +1,11 @@
-// src/components/ColorTokens/ColorTokens.tsx
+
 import React from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import { globalTokens } from '../../../src/tokens';
+import { View, Text, StyleSheet } from 'react-native';
+import { globalTokens } from '../../tokens';
 
 const ColorTokens = () => {
   return (
-    
+
     <View style={styles.container}>
       {Object.entries(globalTokens).map(([name, color]) => (
         <View key={name} style={styles.colorContainer}>
@@ -25,9 +25,10 @@ const styles = StyleSheet.create({
   },
   colorContainer: {
     marginBottom: 16,
+    width: '100%',
   },
   colorBox: {
-    width: 50,
+    width: 150,
     height: 50,
     marginBottom: 8,
   },
